@@ -9,7 +9,7 @@ export default function Skills() {
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center w-full mb-20">
           <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">
-            Skills
+            Skills (작업 중)
           </h2>
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
@@ -17,9 +17,9 @@ export default function Skills() {
             <svg
               fill="none"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               className="sm:w-16 sm:h-16 w-10 h-10"
               viewBox="0 0 24 24"
             >
@@ -39,9 +39,9 @@ export default function Skills() {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
               >
@@ -64,9 +64,9 @@ export default function Skills() {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
               >
@@ -78,9 +78,9 @@ export default function Skills() {
             <svg
               fill="none"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               className="sm:w-16 sm:h-16 w-10 h-10"
               viewBox="0 0 24 24"
             >
@@ -95,9 +95,9 @@ export default function Skills() {
             <svg
               fill="none"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               className="sm:w-16 sm:h-16 w-10 h-10"
               viewBox="0 0 24 24"
             >
@@ -118,9 +118,9 @@ export default function Skills() {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
               >
