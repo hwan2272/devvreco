@@ -9,7 +9,7 @@ export default function Contacts() {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">
-            Contacts
+            Contacts (작업 중)
           </h2>
         </div>
         <div className="flex flex-wrap -m-4 text-center">
