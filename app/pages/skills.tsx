@@ -6,13 +6,13 @@ export default function Skills() {
     // </section>
 
     <section id="skills" className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container lg:w-4/5 px-5 py-6 mx-auto">
         <div className="text-center w-full mb-20">
           <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">
             Skills
           </h2>
         </div>
-        <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
             <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
           </div>
@@ -31,10 +31,13 @@ export default function Skills() {
                 yup)
               </li>
               <li>상태관리를 위한 Zustand, Redux 등을 사용할 수 있습니다.</li>
+              <li>
+                Next.js와 TailwindCSS를 활용하여 현 사이트를 구성하였습니다.
+              </li>
             </ul>
           </div>
         </div>
-        <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
               HTML5, CSS3
@@ -53,7 +56,7 @@ export default function Skills() {
             <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
           </div>
         </div>
-        <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
             <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
             <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
@@ -74,7 +77,7 @@ export default function Skills() {
             </ul>
           </div>
         </div>
-        <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
               Java, SpringFramework, SpringBoot, Jquery
@@ -95,7 +98,7 @@ export default function Skills() {
             <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" />
           </div>
         </div>
-        <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
             <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
             <img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white" />
@@ -113,7 +116,7 @@ export default function Skills() {
             </ul>
           </div>
         </div>
-        <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
               Linux, Apache Tomcat
@@ -131,7 +134,7 @@ export default function Skills() {
             <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white" />
           </div>
         </div>
-        <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
             <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
             <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" />
@@ -150,7 +153,7 @@ export default function Skills() {
             </ul>
           </div>
         </div>
-        <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
               Visual Studio Code
@@ -163,7 +166,7 @@ export default function Skills() {
             <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
           </div>
         </div>
-        <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
             <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" />
           </div>
