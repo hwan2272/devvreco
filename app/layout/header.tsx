@@ -8,7 +8,7 @@ export default function Header() {
           href="/"
           className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
-          <span className="ml-3 text-xl">hwan2272 Pofol</span>
+          <span className="ml-3 text-xl">hwan2272 Devvreco</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <Link href="#aboutme" className="mr-5 hover:text-gray-900">

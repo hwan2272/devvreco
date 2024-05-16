@@ -24,7 +24,7 @@ export default function Projects() {
               />
               <div className="flex-grow sm:pl-8">
                 <h2 className="title-font font-medium text-lg text-gray-900">
-                  Next_Pofol : 개인 포트폴리오 사이트 (v.2)
+                  Devvreco : 개인 포트폴리오 사이트 (v.2)
                 </h2>
                 <h3 className="text-gray-500 mb-3">2024.01 ~ ING</h3>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc">
