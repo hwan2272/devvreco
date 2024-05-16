@@ -18,7 +18,7 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <img
-                alt="team"
+                alt="projects"
                 className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
                 src="https://github.com/hwan2272/hwan2272/assets/65170244/046b1bf2-4f34-4c6f-be26-58dbb0408a35"
               />
@@ -34,7 +34,7 @@ export default function Projects() {
                     구분
                   </li>
                   <li>Next.js 사용하여 SSR 및 SEO처리</li>
-                  <li>TailwindCSS 사용하여 클래스 형태의 CSS 적용</li>
+                  <li>Tailwind CSS 사용하여 클래스 형태의 CSS 적용</li>
                   <li>Git과 Vercel을 연동하여 배포</li>
                 </ul>
                 <div className="flex space-x-2">
@@ -60,7 +60,7 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <img
-                alt="team"
+                alt="projects"
                 className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
                 src="https://github.com/hwan2272/hwan2272/assets/65170244/eb9acb67-9892-40d6-84c5-ea050e7fb034"
               />
