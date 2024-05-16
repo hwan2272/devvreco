@@ -9,7 +9,7 @@ export default function Skills() {
 
     <section id="skills" className="text-gray-600 body-font">
       <div className="container lg:w-4/5 px-5 py-6 mx-auto">
-        <div className="text-center w-full mb-20">
+        <div className="text-center w-full mb-8">
           <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">
             Skills
           </h2>
@@ -28,9 +28,9 @@ export default function Skills() {
             />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+            <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               React.js
-            </h2>
+            </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc">
               <li>
                 React.js로 환경 설정과 프론트엔드 개발에 필요한 전반적인 활동을
@@ -50,9 +50,9 @@ export default function Skills() {
         </div>
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+            <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               HTML5, CSS3
-            </h2>
+            </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc">
               <li>HTML과 CSS를 다루어 웹페이지 제작을 할 수 있습니다.</li>
               <li>
@@ -95,9 +95,9 @@ export default function Skills() {
             />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+            <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               JavaScript, TypeScript
-            </h2>
+            </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc">
               <li>
                 Javascript에 능숙합니다. ES6 문법에 익숙합니다. (spread 연산자
@@ -112,9 +112,9 @@ export default function Skills() {
         </div>
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+            <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               Java, SpringFramework, SpringBoot, Jquery
-            </h2>
+            </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc">
               <li>
                 Java Spring의 MVC 구조에 능숙합니다. JSP개발 경험이 많아
@@ -161,9 +161,9 @@ export default function Skills() {
             />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+            <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               Mysql, MariaDB, Oracle
-            </h2>
+            </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc">
               <li>MySql, MariaDB, Oracle 모두 다룰 수 있습니다.</li>
               <li>
@@ -174,9 +174,9 @@ export default function Skills() {
         </div>
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+            <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               Linux, Apache Tomcat
-            </h2>
+            </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc">
               <li>Linux 환경에 익숙하여 Apache세팅 등이 가능합니다.</li>
               <li>
@@ -212,9 +212,9 @@ export default function Skills() {
             />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+            <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               Git, Jira
-            </h2>
+            </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc">
               <li>Git, Jira를 협업 툴로 많이 사용하였습니다.</li>
               <li>Git로 소스 fetch, pull 및 branch 작업에 익숙합니다.</li>
@@ -227,9 +227,9 @@ export default function Skills() {
         </div>
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+            <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               Visual Studio Code
-            </h2>
+            </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc">
               <li>VSCode를 주로 프론트엔드 개발시 사용합니다.</li>
             </ul>
@@ -251,9 +251,9 @@ export default function Skills() {
             />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+            <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               Json Web Token (JWT)
-            </h2>
+            </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc">
               <li>JWT의 프로세스에 익숙합니다. (AccessToken, RefreshToken)</li>
             </ul>

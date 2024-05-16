@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="text-gray-600 body-font">
+    <header className="text-gray-600 body-font sticky top-0 z-50 bg-white border-b-2">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a
           href="/"
