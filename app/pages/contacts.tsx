@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Contacts() {
   return (
     // <section id="contacts" className="h-screen">
@@ -12,11 +14,16 @@ export default function Contacts() {
             Contacts
           </h2>
         </div>
-        <div className="flex flex-wrap -m-4 text-center">
+        <div className="flex flex-wrap -m-4 text-center items-center">
           <div className="p-4 sm:w-1/3 w-1/2">
-            <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
-              Github
-            </h2>
+            <Image
+              src="/icons/github.svg"
+              alt="Github Logo"
+              className="w-full sm:h-16 h-8"
+              width={100}
+              height={100}
+              priority
+            />
             <p className="leading-relaxed">
               <a href="https://github.com/hwan2272" target="_blank">
                 https://github.com/hwan2272
@@ -24,9 +31,14 @@ export default function Contacts() {
             </p>
           </div>
           <div className="p-4 sm:w-1/3 w-1/2">
-            <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
-              Email (main)
-            </h2>
+            <Image
+              src="/icons/gmail.svg"
+              alt="Gmail Logo"
+              className="w-full sm:h-16 h-8"
+              width={100}
+              height={100}
+              priority
+            />
             <p className="leading-relaxed">
               <a href="mailto:hwan2272@gmail.com" target="_blank">
                 hwan2272@gmail.com
@@ -34,9 +46,14 @@ export default function Contacts() {
             </p>
           </div>
           <div className="p-4 sm:w-1/3 w-1/2">
-            <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
-              Email (sub)
-            </h2>
+            <Image
+              src="/icons/naver.svg"
+              alt="Naver Logo"
+              className="w-full sm:h-16 h-8"
+              width={100}
+              height={100}
+              priority
+            />
             <p className="leading-relaxed">
               <a href="mailto:hwan2230@naver.com" target="_blank">
                 hwan2230@naver.com

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Skills() {
   return (
     // <section id="skills" className="h-screen">
@@ -14,7 +16,16 @@ export default function Skills() {
         </div>
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
-            <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+            <img
+              alt="Next.js"
+              className="sm:w-28 w-24 sm:h-10 h-8"
+              src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js"
+            />
+            <img
+              alt="React.js"
+              className="sm:w-28 w-24 sm:h-10 h-8"
+              src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"
+            />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
@@ -32,7 +43,7 @@ export default function Skills() {
               </li>
               <li>상태관리를 위한 Zustand, Redux 등을 사용할 수 있습니다.</li>
               <li>
-                Next.js와 TailwindCSS를 활용하여 현 사이트를 구성하였습니다.
+                Next.js와 Tailwind CSS를 사용하여 현 사이트를 구성하였습니다.
               </li>
             </ul>
           </div>
@@ -48,18 +59,40 @@ export default function Skills() {
                 Figma를 사용한 디자인과의 협의는 몇몇 기업의 기술과제를 수행하며
                 적응하였습니다.
               </li>
-              <li>Tailwind Css등도 사용합니다.</li>
+              <li>
+                Next.js와 Tailwind CSS를 사용하여 현 사이트를 구성하였습니다.
+              </li>
             </ul>
           </div>
-          <div className="sm:w-32 sm:order-none order-first sm:h-24 h-20 w-20 sm:ml-10 grid items-center justify-center rounded-full flex-shrink-0">
-            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+          <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 grid items-center justify-center rounded-full flex-shrink-0">
+            <img
+              alt="HTML5"
+              className="sm:w-28 w-24 sm:h-8 h-6"
+              src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+            />
+            <img
+              alt="CSS3"
+              className="sm:w-28 w-24 sm:h-8 h-6"
+              src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+            />
+            <img
+              className="sm:w-28 w-24 sm:h-8 h-6"
+              src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"
+            />
           </div>
         </div>
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
-            <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-            <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+            <img
+              alt="JavaScript"
+              className="sm:w-28 w-24 sm:h-10 h-8"
+              src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"
+            />
+            <img
+              alt="TypeScript"
+              className="sm:w-28 w-24 sm:h-10 h-8"
+              src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
+            />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
@@ -92,17 +125,40 @@ export default function Skills() {
             </ul>
           </div>
           <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 grid items-center justify-center rounded-full flex-shrink-0">
-            <img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white" />
-            <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white" />
-            <img src="https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot" />
-            <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" />
+            <img
+              alt="Java Spring"
+              className="sm:w-28 w-24 sm:h-8 h-6"
+              src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"
+            />
+            <img
+              alt="Spring Boot"
+              className="sm:w-28 w-24 sm:h-8 h-6"
+              src="https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot"
+            />
+            <img
+              alt="Jquery"
+              className="sm:w-28 w-24 sm:h-8 h-6"
+              src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"
+            />
           </div>
         </div>
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
-            <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-            <img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white" />
-            <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
+            <img
+              alt="Mysql"
+              className="sm:w-28 w-24 sm:h-8 h-6"
+              src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"
+            />
+            <img
+              alt="MariaDB"
+              className="sm:w-28 w-24 sm:h-8 h-6"
+              src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white"
+            />
+            <img
+              alt="Oracle"
+              className="sm:w-28 w-24 sm:h-8 h-6"
+              src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"
+            />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
@@ -130,14 +186,30 @@ export default function Skills() {
             </ul>
           </div>
           <div className="sm:w-32 sm:order-none order-first sm:h-24 h-20 w-20 sm:ml-10 grid items-center justify-center rounded-full flex-shrink-0">
-            <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-            <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white" />
+            <img
+              alt="Linux"
+              className="sm:w-28 w-24 sm:h-10 h-8"
+              src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"
+            />
+            <img
+              alt="Apache Tomcat"
+              className="sm:w-28 w-24 sm:h-10 h-8"
+              src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"
+            />
           </div>
         </div>
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
-            <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
-            <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" />
+            <img
+              alt="Git"
+              className="sm:w-28 w-24 sm:h-10 h-8"
+              src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"
+            />
+            <img
+              alt="Jira"
+              className="sm:w-28 w-24 sm:h-10 h-8"
+              src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white"
+            />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
@@ -163,12 +235,20 @@ export default function Skills() {
             </ul>
           </div>
           <div className="sm:w-32 sm:order-none order-first sm:h-24 h-20 w-20 sm:ml-10 grid items-center justify-center rounded-full flex-shrink-0">
-            <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+            <img
+              alt="Visual Studio Code"
+              className="sm:w-28 w-24 sm:h-10 h-8"
+              src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"
+            />
           </div>
         </div>
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
-            <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" />
+            <img
+              alt="JWT"
+              className="sm:w-28 w-24 sm:h-10 h-8"
+              src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white"
+            />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
