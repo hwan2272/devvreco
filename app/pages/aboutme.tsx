@@ -8,12 +8,12 @@ export default function AboutMe() {
     //   <div></div>
     // </section>
 
-    <section className="text-gray-600 body-font h-screen">
-      <div className="container lg:w-4/5 mx-auto flex px-5 pt-24 py-6 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+    <section className="text-gray-600 body-font">
+      <div className="container lg:w-4/5 mx-auto flex px-5 pt-12 py-6 md:flex-row flex-col items-center h-screen">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left sm:mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             박정환
-            <br className="hidden lg:inline-block" />
+            <br className="lg:inline-block" />
             Frontend Developer
           </h1>
           {/* <p className="mb-8 leading-relaxed"> */}
