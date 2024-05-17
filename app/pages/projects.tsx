@@ -26,14 +26,16 @@ export default function Projects() {
                 <h3 className="title-font font-medium text-lg text-gray-900">
                   Devvreco : 개인 포트폴리오 사이트 (v.2)
                 </h3>
-                <h3 className="text-gray-500 mb-3">2024.01 ~ ING</h3>
-                <ul className="pl-4 mb-4 leading-relaxed list-disc">
+                <h4 className="text-gray-500">2024.04 ~ ING</h4>
+                <h4 className="text-gray-500 mb-3">개인 프로젝트</h4>
+                <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
                   <li>기여도 : 100%</li>
+                  <li>Next.js + Typescript + Tailwind CSS</li>
                   <li>
                     HTML5 시맨틱 태그 (header, nav, section, footer) 사용한 문단
                     구분
                   </li>
-                  <li>Next.js 사용하여 SSR 및 SEO처리</li>
+                  <li>Next.js 사용하여 SSR 처리</li>
                   <li>Tailwind CSS 사용하여 클래스 형태의 CSS 적용</li>
                   <li>Git과 Vercel을 연동하여 배포</li>
                 </ul>
@@ -68,9 +70,11 @@ export default function Projects() {
                 <h3 className="title-font font-medium text-lg text-gray-900">
                   HistoryBook : 개인 포트폴리오 사이트 (v.1)
                 </h3>
-                <h3 className="text-gray-500 mb-3">2024.01 ~ ING</h3>
-                <ul className="pl-4 mb-4 leading-relaxed list-disc">
+                <h4 className="text-gray-500">2024.01 ~ 2024.04</h4>
+                <h4 className="text-gray-500 mb-3">개인 프로젝트</h4>
+                <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
                   <li>기여도 : 100%</li>
+                  <li>React + Typescript + Vite</li>
                   <li>
                     HTML5 시맨틱 태그 (header, nav, section, footer) 사용한 문단
                     구분
@@ -124,17 +128,31 @@ export default function Projects() {
                   Hdms Camel : 임상연구사업 관리 통합플랫폼 HDMS 서비스
                   Camel버전
                 </h3>
-                <h3 className="text-gray-500 mb-3">2023.04 ~ 2024.01</h3>
-                <ul className="pl-4 mb-4 leading-relaxed list-disc">
+                <h4 className="text-gray-500">2023.04 ~ 2024.01</h4>
+                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
                   <li>기여도 : 70%</li>
                   <li>
                     React.js 18 + Material-ui 및 React-hookform, yup validation,
-                    React-query 라이브러리의 각종 케이스 경험
+                    React-query
                   </li>
                   <li>
-                    임상연구 도메인의 이해와 eCrf, PRO, Imaging, Safebox 구현
+                    임상연구 도메인의 이해와 Admin, eCrf, PRO, Imaging, Safebox,
+                    Community 구현
                   </li>
-                  <li>TinyMCE - SunEditor로 WebEditor 교체</li>
+                  <li>ES6, ES8 문법 (Spread 연산자, Object.entries) 사용</li>
+                  <li>
+                    Input, Select 등 HTML 구성 요소들에 대한 공통 컴포넌트화.
+                    이들의 조합 배치로 UI 구성
+                  </li>
+                  <li>
+                    React-query를 사용한 CRUD 적용, Zustand를 이용한 상태 관리
+                  </li>
+                  <li>
+                    React-Hookform과 yup resolver를 활용한 입력성 화면의
+                    validation 체크
+                  </li>
+                  <li>TinyMCE → SunEditor로 WebEditor 교체</li>
                 </ul>
                 <div className="flex space-x-2 justify-center sm:justify-start">
                   <Link href="https://camel.dataservice.kr" target="_blank">
@@ -159,14 +177,15 @@ export default function Projects() {
                 <h3 className="title-font font-medium text-lg text-gray-900">
                   설힐공-서울의 힐링공원 : 공원정보 사이트
                 </h3>
-                <h3 className="text-gray-500 mb-3">2023.01 ~ 2023.02</h3>
-                <ul className="pl-4 mb-4 leading-relaxed list-disc">
+                <h4 className="text-gray-500">2023.01 ~ 2023.02</h4>
+                <h4 className="text-gray-500 mb-3">개인 프로젝트</h4>
+                <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
                   <li>기여도 : 100%</li>
-                  <li>공공데이터 서울시 공원정보 API 사용 적용</li>
-                  <li>Naver, Kakao 지도 API 사용 설정</li>
-                  <li>
-                    상세화면에서 Panorama(실사진 거리뷰) 를 적용키 위한 설정
-                  </li>
+                  <li>React + Redux + TypsScript + JavaScript</li>
+                  <li>redux store를 활용한 상태저장 관리</li>
+                  <li>list및 상세View - 서울시api 활용</li>
+                  <li>상세View내 지도, 파노라마 - 네이버api 활용</li>
+                  <li>상세View내 주변 음식점,카페 지도 - 카카오api 활용</li>
                 </ul>
                 <div className="flex space-x-2 justify-center sm:justify-start">
                   <Link href="#">
@@ -202,12 +221,44 @@ export default function Projects() {
                 <h3 className="title-font font-medium text-lg text-gray-900">
                   아파트청약케어 : 아파트관련 이통사 부가서비스
                 </h3>
-                <h3 className="text-gray-500 mb-3">2020.11 ~ 2022.04</h3>
-                <ul className="pl-4 mb-4 leading-relaxed list-disc">
+                <h4 className="text-gray-500">2020.11 ~ 2022.04</h4>
+                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
                   <li>기여도 : 70%</li>
-                  <li>Kakao 지도 API 사용 설정</li>
+                  <li>React.js + Kakao Map API</li>
+                  <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                    <li>
+                      Kakao Map API (지도, 주변정보 등) 를 활용한 아파트 정보,
+                      아파트 청약정보, 아파트 추천, 로그인, 회원가입 프론트엔드
+                      (React.js) 개발
+                    </li>
+                    <li>
+                      공공데이터 건축물대장, 실거래가 API 동작에 따른 DB 확인
+                    </li>
+                  </ul>
+                  <li>Flutter (WebView)</li>
+                  <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                    <li>
+                      Flutter 별도 APP의 WebView구현과 Flutter Native를 호출할
+                      수 있는 인터페이스 정의
+                    </li>
+                  </ul>
+                  <li>Java SpringBoot + MariaDB</li>
+                  <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                    <li>
+                      Java SpringBoot (SpringBoot 4) 백엔드단 개발과 로그인 필수
+                      메뉴의 접근을 제어하기 위해 JWT(Json Web Token) + Spring
+                      Security 적용
+                    </li>
+                  </ul>
                   <li>
-                    공공데이터 건축물대장, 실거래가 API 동작에 따른 DB 확인
+                    Linux CentOS의 기업 내 자체 인프라 - 온 프레미스 (On
+                    Premise)
+                  </li>
+                  <li>
+                    WEB 서버 2대, WAS 서버 2대, DB 서버 1대 형상의 L4를 통한
+                    Round-robin. WEB-WAS 간 Apache ajp (mod_jk) 설정을 통한 서버
+                    간 연동
                   </li>
                   <li>
                     기획, 디자인UI/UX 개발회의로 인한 서비스 개발 방향 결정 및
@@ -243,8 +294,10 @@ export default function Projects() {
                 <h3 className="title-font font-medium text-lg text-gray-900">
                   이통사 부가서비스 6종 : LOP / SPM / 주투 / 슈퍼 / 알파 / PNS
                 </h3>
-                <h3 className="text-gray-500 mb-3">2019.09 ~ 2021.08</h3>
-                <ul className="pl-4 mb-4 leading-relaxed list-disc">
+                <h4 className="text-gray-500">2019.09 ~ 2021.08</h4>
+                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                  <li>Java SpringFramework (Jdk1.8) + JSP, Apache Tomcat</li>
                   <li>
                     회사 주력 부가서비스 유지보수 : LOP, SPM, 주투, 슈퍼, 알파,
                     PNS{" "}
@@ -287,14 +340,27 @@ export default function Projects() {
               />
               <div className="flex-grow sm:pl-8">
                 <h3 className="title-font font-medium text-lg text-gray-900">
-                  각종 파견 SI/SM : G2R/KTDS/삼성증권/씨스퀘어
+                  정부위원회 양성평등 관리 시스템 개발 및 파견 SI / SM
                 </h3>
-                <h3 className="text-gray-500 mb-3">2013.09 ~ 2016.12</h3>
-                <ul className="pl-4 mb-4 leading-relaxed list-disc">
-                  <li>G2R 그룹웨어 운영, 유지보수</li>
-                  <li>KTDS New Neoss시스템 개발</li>
-                  <li>삼성증권 ITAM 개발</li>
-                  <li>씨스퀘어 TAAP, CAAP 개발</li>
+                <h4 className="text-gray-500">2013.09 ~ 2016.12</h4>
+                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                  <li>Java SpringFramework (eGovFramework) + JSP, Sybase</li>
+                  <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                    <li>여성가족부 발주 정부위원회 관리 시스템 개발</li>
+                  </ul>
+                  <li>ASP.NET, C#, Mssql</li>
+                  <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                    <li>G2R 그룹웨어 운영, 유지보수</li>
+                    <li>KTDS New Neoss시스템 개발</li>
+                  </ul>
+                  <li>
+                    Java SpringFramework (eGovFramework) + JSP, Oracle, Mysql
+                  </li>
+                  <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                    <li>삼성증권 ITAM 개발</li>
+                    <li>씨스퀘어 TAAP, CAAP 개발</li>
+                  </ul>
                 </ul>
                 <div className="flex space-x-2 justify-center sm:justify-start">
                   <Link href="#">

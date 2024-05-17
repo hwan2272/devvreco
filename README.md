@@ -1,9 +1,9 @@
-# devvreco - 포트폴리오 사이트 (v.2)
+# Devvreco - 포트폴리오 사이트 (v.2)
 
 ## 개요
 
 - 나만의 포트폴리오 사이트 (v.2)
-- Next.js + Tailwind CSS로 구성
+- Next.js + TypeScript + Tailwind CSS로 구성
 - TailBlocks의 block별 UI 참조
 - Git Feature Branch Push후 Main Branch의 Github Merge를 통한 Vercel 자동 CI/CD
 - https://hwan2272-devvreco.vercel.app
