@@ -29,9 +29,9 @@ export default function Skills() {
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
-              React.js
+              Next.js, React.js
             </h3>
-            <ul className="pl-4 leading-relaxed text-base list-disc">
+            <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>
                 React.js로 환경 설정과 프론트엔드 개발에 필요한 전반적인 활동을
                 할 수 있습니다. (실제로 상용 오픈한 서비스도 많이 있습니다.)
@@ -51,9 +51,9 @@ export default function Skills() {
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
-              HTML5, CSS3
+              HTML5, CSS3, Tailwind CSS
             </h3>
-            <ul className="pl-4 leading-relaxed text-base list-disc">
+            <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>HTML과 CSS를 다루어 웹페이지 제작을 할 수 있습니다.</li>
               <li>
                 Figma를 사용한 디자인과의 협의는 몇몇 기업의 기술과제를 수행하며
@@ -76,6 +76,7 @@ export default function Skills() {
               src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
             />
             <img
+              alt="Tailwind CSS"
               className="sm:w-28 w-24 sm:h-8 h-6"
               src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"
             />
@@ -98,10 +99,10 @@ export default function Skills() {
             <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               JavaScript, TypeScript
             </h3>
-            <ul className="pl-4 leading-relaxed text-base list-disc">
+            <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>
-                Javascript에 능숙합니다. ES6 문법에 익숙합니다. (spread 연산자
-                등)
+                Javascript에 능숙합니다. ES6~ 문법에 익숙합니다. (spread 연산자,
+                Object.entries 등)
               </li>
               <li>
                 Typescript는 많이 사용하여 보았고, 최근 기술과제도 수행하며
@@ -115,7 +116,7 @@ export default function Skills() {
             <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               Java, SpringFramework, SpringBoot, Jquery
             </h3>
-            <ul className="pl-4 leading-relaxed text-base list-disc">
+            <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>
                 Java Spring의 MVC 구조에 능숙합니다. JSP개발 경험이 많아
                 Jquery를 잘 다루었습니다.
@@ -164,7 +165,7 @@ export default function Skills() {
             <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               Mysql, MariaDB, Oracle
             </h3>
-            <ul className="pl-4 leading-relaxed text-base list-disc">
+            <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>MySql, MariaDB, Oracle 모두 다룰 수 있습니다.</li>
               <li>
                 SpringBoot로 간단한 서버를 만들시, MariaDB를 주로 사용합니다.
@@ -177,7 +178,7 @@ export default function Skills() {
             <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               Linux, Apache Tomcat
             </h3>
-            <ul className="pl-4 leading-relaxed text-base list-disc">
+            <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>Linux 환경에 익숙하여 Apache세팅 등이 가능합니다.</li>
               <li>
                 SpringBoot으로 서버를 빌드하여 Apache tomcat으로 구동할 수
@@ -215,7 +216,7 @@ export default function Skills() {
             <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               Git, Jira
             </h3>
-            <ul className="pl-4 leading-relaxed text-base list-disc">
+            <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>Git, Jira를 협업 툴로 많이 사용하였습니다.</li>
               <li>Git로 소스 fetch, pull 및 branch 작업에 익숙합니다.</li>
               <li>
@@ -230,7 +231,7 @@ export default function Skills() {
             <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               Visual Studio Code
             </h3>
-            <ul className="pl-4 leading-relaxed text-base list-disc">
+            <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>VSCode를 주로 프론트엔드 개발시 사용합니다.</li>
             </ul>
           </div>
@@ -254,7 +255,7 @@ export default function Skills() {
             <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
               Json Web Token (JWT)
             </h3>
-            <ul className="pl-4 leading-relaxed text-base list-disc">
+            <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>JWT의 프로세스에 익숙합니다. (AccessToken, RefreshToken)</li>
             </ul>
           </div>
