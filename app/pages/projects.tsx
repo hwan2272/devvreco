@@ -18,12 +18,13 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
                 href="https://github.com/hwan2272/hwan2272/assets/65170244/046b1bf2-4f34-4c6f-be26-58dbb0408a35"
                 target="_blank"
               >
                 <img
                   alt="projects"
-                  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                  className="rounded-lg w-full h-full object-cover object-center"
                   src="https://github.com/hwan2272/hwan2272/assets/65170244/046b1bf2-4f34-4c6f-be26-58dbb0408a35"
                 />
               </a>
@@ -87,12 +88,13 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
                 href="https://github.com/hwan2272/hwan2272/assets/65170244/eb9acb67-9892-40d6-84c5-ea050e7fb034"
                 target="_blank"
               >
                 <img
                   alt="projects"
-                  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                  className="rounded-lg w-full h-full object-cover object-center"
                   src="https://github.com/hwan2272/hwan2272/assets/65170244/eb9acb67-9892-40d6-84c5-ea050e7fb034"
                 />
               </a>
@@ -171,12 +173,13 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
                 href="https://github.com/hwan2272/hwan2272/assets/65170244/605cc251-5362-403c-a5a1-e918c41ea5ad"
                 target="_blank"
               >
                 <img
                   alt="projects"
-                  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                  className="rounded-lg w-full h-full object-cover object-center"
                   src="https://github.com/hwan2272/hwan2272/assets/65170244/605cc251-5362-403c-a5a1-e918c41ea5ad"
                 />
               </a>
@@ -226,12 +229,13 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
                 href="https://github.com/hwan2272/hwan2272/assets/65170244/74cff92a-8f4d-405f-8854-fbfb1026a45b"
                 target="_blank"
               >
                 <img
                   alt="projects"
-                  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                  className="rounded-lg w-full h-full object-cover object-center"
                   src="https://github.com/hwan2272/hwan2272/assets/65170244/74cff92a-8f4d-405f-8854-fbfb1026a45b"
                 />
               </a>
@@ -275,12 +279,13 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
                 href="https://github.com/hwan2272/hwan2272/assets/65170244/4c7ce9e4-9fc8-49e3-885e-c21a18a8aacd"
                 target="_blank"
               >
                 <img
                   alt="projects"
-                  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                  className="rounded-lg w-full h-full object-cover object-center"
                   src="https://github.com/hwan2272/hwan2272/assets/65170244/4c7ce9e4-9fc8-49e3-885e-c21a18a8aacd"
                 />
               </a>
@@ -353,12 +358,13 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
                 href="https://user-images.githubusercontent.com/65170244/222355228-eaad6405-554f-40ba-a45e-876a0f1f6c5d.png"
                 target="_blank"
               >
                 <img
                   alt="projects"
-                  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                  className="rounded-lg w-full h-full object-cover object-center"
                   src="https://user-images.githubusercontent.com/65170244/222355228-eaad6405-554f-40ba-a45e-876a0f1f6c5d.png"
                 />
               </a>
@@ -406,12 +412,13 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
                 href="https://user-images.githubusercontent.com/65170244/222340616-fae8665d-f989-46e1-9609-92bcb45394ba.png"
                 target="_blank"
               >
                 <img
                   alt="projects"
-                  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                  className="rounded-lg w-full h-full object-cover object-center"
                   src="https://user-images.githubusercontent.com/65170244/222340616-fae8665d-f989-46e1-9609-92bcb45394ba.png"
                 />
               </a>
