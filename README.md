@@ -54,13 +54,13 @@ npm run storybook (storybook 시작)
 
  stories
   ├──backup - storybook 설치시 기본 세팅되는 button, header, page 백업
-  │    └── 내용 생략
+  │    └──(내용 생략)
   │
-  ├──Abountme.stories.ts - 간단 자기소개 섹션 컴포넌트 stories 문서화
-  ├──Contacts.stories.ts - 연락처 정보 섹션 (github, gmail, naver) 컴포넌트 stories 문서화
-  ├──Projects.stories.ts - 수행한 프로젝트들의 정보 섹션 컴포넌트 stories 문서화
-  ├──Skills.stories.ts - 사용하는 기술 스택 소개 섹션 컴포넌트 stories 문서화
-  ├──Header.stories.ts - 사이트 헤더 정의 (탑메뉴) 컴포넌트 stories 문서화
-  └──Footer.stories.ts - 사이트 푸터 정의 컴포넌트 stories 문서화
+  ├──Abountme.stories.ts - 간단 자기소개 섹션 stories 문서화
+  ├──Contacts.stories.ts - 연락처 정보 섹션 (github, gmail, naver) stories 문서화
+  ├──Projects.stories.ts - 수행한 프로젝트들의 정보 섹션 stories 문서화
+  ├──Skills.stories.ts - 사용하는 기술 스택 소개 섹션 stories 문서화
+  ├──Header.stories.ts - 사이트 헤더 정의 (탑메뉴) stories 문서화
+  └──Footer.stories.ts - 사이트 푸터 정의 stories 문서화
 
 ```
