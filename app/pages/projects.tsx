@@ -18,7 +18,7 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
-                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4 transform transition duration-500 hover:scale-110"
                 href="https://github.com/hwan2272/hwan2272/assets/65170244/046b1bf2-4f34-4c6f-be26-58dbb0408a35"
                 target="_blank"
               >
@@ -48,7 +48,7 @@ export default function Projects() {
                     개인 기술 블로그 작성글 -
                     <a
                       href="https://hwan2272.notion.site/62fffe933b334186bf1c2b6b90c59740"
-                      className="text-indigo-800 font-bold underline"
+                      className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
                       target="_blank"
                     >
                       [미해결]포트폴리오 사이트 피드백 분석과 리뉴얼 개발과정
@@ -58,7 +58,7 @@ export default function Projects() {
                     개인 기술 블로그 작성글 -
                     <a
                       href="https://hwan2272.notion.site/UI-CSS-media-856b2b4fa7314ba2abe25ad25a8fd465"
-                      className="text-indigo-800 font-bold underline"
+                      className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
                       target="_blank"
                     >
                       [분석]반응형 UI - CSS 미디어쿼리(@media) 분기점 기준
@@ -88,7 +88,7 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
-                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4 transform transition duration-500 hover:scale-110"
                 href="https://github.com/hwan2272/hwan2272/assets/65170244/eb9acb67-9892-40d6-84c5-ea050e7fb034"
                 target="_blank"
               >
@@ -131,7 +131,7 @@ export default function Projects() {
                     개인 기술 블로그 작성글 -
                     <a
                       href="https://hwan2272.notion.site/2-cf6ab4961393407fb3701d3cf990e63c?pvs=74"
-                      className="text-indigo-800 font-bold underline"
+                      className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
                       target="_blank"
                     >
                       [해결]포트폴리오 테마 변경하기 (부제: 컬러감 찾기, 부제2:
@@ -142,7 +142,7 @@ export default function Projects() {
                     개인 기술 블로그 작성글 -
                     <a
                       href="https://hwan2272.notion.site/React-Test-Code-fetch-65a5212d34644ee5b03d317b5041ed1d"
-                      className="text-indigo-800 font-bold underline"
+                      className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
                       target="_blank"
                     >
                       [미해결][트러블슈팅] React - Test Code에서 fetch 사용하기
@@ -173,7 +173,7 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
-                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4 transform transition duration-500 hover:scale-110"
                 href="https://github.com/hwan2272/hwan2272/assets/65170244/605cc251-5362-403c-a5a1-e918c41ea5ad"
                 target="_blank"
               >
@@ -229,7 +229,7 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
-                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4 transform transition duration-500 hover:scale-110"
                 href="https://github.com/hwan2272/hwan2272/assets/65170244/74cff92a-8f4d-405f-8854-fbfb1026a45b"
                 target="_blank"
               >
@@ -279,7 +279,7 @@ export default function Projects() {
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
-                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4 transform transition duration-500 hover:scale-110"
                 href="https://github.com/hwan2272/hwan2272/assets/65170244/4c7ce9e4-9fc8-49e3-885e-c21a18a8aacd"
                 target="_blank"
               >
@@ -357,17 +357,11 @@ export default function Projects() {
         <div className="flex flex-wrap -m-4 mb-8">
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-              <a
-                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
-                href="https://user-images.githubusercontent.com/65170244/222355228-eaad6405-554f-40ba-a45e-876a0f1f6c5d.png"
-                target="_blank"
-              >
-                <img
-                  alt="projects"
-                  className="rounded-lg w-full h-full object-cover object-center"
-                  src="https://user-images.githubusercontent.com/65170244/222355228-eaad6405-554f-40ba-a45e-876a0f1f6c5d.png"
-                />
-              </a>
+              <img
+                alt="projects"
+                className="flex-shrink-0 w-48 h-48 rounded-lg object-cover object-center sm:mb-0 mb-4"
+                src="https://user-images.githubusercontent.com/65170244/222355228-eaad6405-554f-40ba-a45e-876a0f1f6c5d.png"
+              />
               <div className="flex-grow sm:pl-8">
                 <h3 className="title-font font-medium text-lg text-gray-900">
                   이통사 부가서비스 6종 : LOP / SPM / 주투 / 슈퍼 / 알파 / PNS
@@ -411,17 +405,11 @@ export default function Projects() {
         <div className="flex flex-wrap -m-4 mb-8">
           <div className="p-4">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-              <a
-                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4"
-                href="https://user-images.githubusercontent.com/65170244/222340616-fae8665d-f989-46e1-9609-92bcb45394ba.png"
-                target="_blank"
-              >
-                <img
-                  alt="projects"
-                  className="rounded-lg w-full h-full object-cover object-center"
-                  src="https://user-images.githubusercontent.com/65170244/222340616-fae8665d-f989-46e1-9609-92bcb45394ba.png"
-                />
-              </a>
+              <img
+                alt="projects"
+                className="flex-shrink-0 w-48 h-48 rounded-lg object-cover object-center sm:mb-0 mb-4"
+                src="https://user-images.githubusercontent.com/65170244/222340616-fae8665d-f989-46e1-9609-92bcb45394ba.png"
+              />
               <div className="flex-grow sm:pl-8">
                 <h3 className="title-font font-medium text-lg text-gray-900">
                   정부위원회 양성평등 관리 시스템 개발 및 파견 SI / SM
