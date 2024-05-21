@@ -15,21 +15,26 @@ export default function Skills() {
           </h2>
         </div>
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
+          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
             <img
               alt="Next.js"
-              className="sm:w-28 w-24 sm:h-10 h-8"
+              className="sm:w-28 w-24 sm:h-8 h-6"
               src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js"
             />
             <img
               alt="React.js"
-              className="sm:w-28 w-24 sm:h-10 h-8"
+              className="sm:w-28 w-24 sm:h-8 h-6"
               src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"
+            />
+            <img
+              alt="Storybook"
+              className="sm:w-28 w-24 sm:h-8 h-6"
+              src="https://img.shields.io/badge/storybook-ff4785?style=for-the-badge&logo=storybook&logoColor=white"
             />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Next.js, React.js
+              Next.js, React.js, Storybook
             </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>
@@ -44,6 +49,10 @@ export default function Skills() {
               <li>상태관리를 위한 Zustand, Redux 등을 사용할 수 있습니다.</li>
               <li>
                 Next.js와 Tailwind CSS를 사용하여 현 사이트를 구성하였습니다.
+              </li>
+              <li>
+                Storybook을 사용하여 컴포넌트에 대한 공유나 문서화를 할 수
+                있습니다.
               </li>
             </ul>
           </div>
