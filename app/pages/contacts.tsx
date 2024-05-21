@@ -20,7 +20,7 @@ export default function Contacts() {
               <Image
                 src="/icons/github.svg"
                 alt="Github Logo"
-                className="w-full sm:h-16 h-8"
+                className="w-full sm:h-16 h-8 transform transition duration-500 hover:scale-110"
                 width={100}
                 height={100}
                 priority
@@ -37,7 +37,7 @@ export default function Contacts() {
               <Image
                 src="/icons/gmail.svg"
                 alt="Gmail Logo"
-                className="w-full sm:h-16 h-8"
+                className="w-full sm:h-16 h-8 transform transition duration-500 hover:scale-110"
                 width={100}
                 height={100}
                 priority
@@ -54,7 +54,7 @@ export default function Contacts() {
               <Image
                 src="/icons/naver.svg"
                 alt="Naver Logo"
-                className="w-full sm:h-16 h-8"
+                className="w-full sm:h-16 h-8 transform transition duration-500 hover:scale-110"
                 width={100}
                 height={100}
                 priority
