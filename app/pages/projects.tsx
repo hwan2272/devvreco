@@ -43,6 +43,7 @@ export default function Projects() {
                   </li>
                   <li>Next.js 사용하여 SSR 처리</li>
                   <li>Tailwind CSS 사용하여 클래스 형태의 CSS 적용</li>
+                  <li>Storybook 적용으로 인한 컴포넌트 문서화</li>
                   <li>Git과 Vercel을 연동하여 배포</li>
                   <li>
                     개인 기술 블로그 작성글 -
