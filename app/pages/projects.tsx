@@ -329,15 +329,25 @@ export default function Projects() {
                     Premise)
                   </li>
                   <li>
-                    WEB 서버 2대, WAS 서버 2대, DB 서버 1대 형상의 L4를 통한
-                    Round-robin. WEB-WAS 간 Apache ajp (mod_jk) 설정을 통한 서버
-                    간 연동
+                    <a
+                      href="https://drive.google.com/file/d/1BYVvk36FxVmqEbxtycwh6hyhtsFsB_T5/view?usp=drive_link"
+                      className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
+                      target="_blank"
+                    >
+                      WEB 서버 2대, WAS 서버 2대, DB 서버 1대 형상의 L4를 통한
+                      Round-robin. WEB-WAS 간 Apache ajp (mod_jk) 설정을 통한
+                      서버 간 연동
+                    </a>
                   </li>
                   <li>
-                    기획, 디자인UI/UX 개발회의로 인한 서비스 개발 방향 결정 및
-                    UI내 사용 그래프 모듈에 대한 결정(rMateChart 도입, 도입을
-                    위한 타사 컨택)
+                    타 직군 (기획, 디자인 UI/UX) 담당자 협업 - 개발 방향 논의
+                    결정 및 서비스 내 사용 그래프 rMateChart 라이브러리 선정
                   </li>
+                  <li>
+                    타 직군 (CS, 보안, 마케팅, QA) 담당자 협업 - CS처리, ISMS
+                    관련 요구사항 등
+                  </li>
+                  <li>타 회사 (부동산 114, 리아모어소프트) 컨택</li>
                 </ul>
                 <div className="flex space-x-2 justify-center sm:justify-start">
                   <Link href="https://aptcare.kr" target="_blank">
