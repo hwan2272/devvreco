@@ -15,20 +15,28 @@ export default function AboutMe() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             박정환
             <br className="lg:inline-block" />
-            Frontend Developer
+            Software Engineer
           </h1>
           <ul className="pl-4 mb-8 leading-relaxed list-disc text-left">
             <li>
-              다양한 백엔드 개발 경험과 도메인 지식을 가지고 있어 프론트엔드
-              개발자로서 백엔드와 협업할 수 있습니다.
+              시니어 개발자 Role을 수행하며 개발팀 리딩과 협업 등의 성과로
+              2024년말 한국 클라우드 인증제 인증을 획득하였습니다.
+              <a
+                href="https://github.com/user-attachments/files/18271431/CSA-23-2024-11.-.pdf"
+                className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
+                target="_blank"
+              >
+                (CSA-23-2024-11)
+              </a>
             </li>
             <li>
               개발자 커뮤니티에서 100여 분 이상의 질문자분들과 상호 소통하는 등
-              생각을 나누고자 합니다.
+              생각을 나누며 트렌드를 학습하여 보다 나은 서비스를 만들고 배포,
+              제공하는데 관심이 있습니다.
             </li>
             <li>
-              사용자의 피드백이 빠른 프론트엔드 영역에서 함께 일하기 좋은 사람이
-              되고 싶습니다.
+              개인 프로젝트 및 학습 등을 하며 기술 스택의 범위와 이해를 넓히고
+              있습니다.
             </li>
           </ul>
           <div className="flex justify-center">
