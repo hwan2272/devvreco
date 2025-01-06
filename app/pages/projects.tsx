@@ -19,6 +19,176 @@ export default function Projects() {
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
                 className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4 transform transition duration-500 hover:scale-110"
+                href="https://github.com/user-attachments/assets/a854c310-cadb-48a9-ab37-66e3db7a5e12"
+                target="_blank"
+              >
+                <img
+                  alt="projects"
+                  className="rounded-lg w-full h-full object-cover object-center"
+                  src="https://github.com/user-attachments/assets/a854c310-cadb-48a9-ab37-66e3db7a5e12"
+                />
+              </a>
+              <div className="flex-grow sm:pl-8">
+                <h3 className="title-font font-medium text-lg text-gray-900">
+                  E-Guard : 밀폐공간 근로자보호 Saas 플랫폼
+                </h3>
+                <h4 className="text-gray-500">2024.10 ~ 2025.01</h4>
+                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                  <li>
+                    React 18 + Vite + Typescript + Tailwind CSS(TailAdmin)
+                  </li>
+                  <li>E-Verse 2.0과 환경 동일</li>
+                  <li>
+                    Oracle Cloud Infrasructure (OCI) 인스턴스를 활용한 서비스
+                    배포와 관리
+                  </li>
+                  <li>
+                    사용 편의성을 위한 ChipButton식 근로자 할당 UI, Thumbnail
+                    List식 구역 설정 UI등의 고안, 개발
+                  </li>
+                  <li>
+                    OCI 인스턴스를 활용한 파일 서버 고안, 구축, Nginx 보안처리
+                    (일종의 간이 CDN)
+                  </li>
+                  <li>
+                    ListContentsWrapper 및 Hook Form 에 사용되는 Type Entity
+                    개선을 위한 Zod 도입
+                  </li>
+                  <li>
+                    <a
+                      href="http://storybook.ateverse.com/?path=/story/e-guard-layout-summary-card--case-good"
+                      className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
+                      target="_blank"
+                    >
+                      서비스 UI 컴포넌트 공유용 Storybook 개발
+                    </a>
+                  </li>
+                </ul>
+                <div className="flex space-x-2 justify-center sm:justify-start">
+                  <Link href="http://eguard.ateverse.com/auth/login">
+                    <button className="text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded sm:text-lg text-sm">
+                      Web Link
+                    </button>
+                  </Link>
+                  <Link
+                    href="https://github.com/atemos01/e-guard-frontend.git"
+                    target="_blank"
+                  >
+                    <button className="text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded sm:text-lg text-sm">
+                      Github Link (Private)
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-wrap -m-4 mb-8">
+          <div className="p-4">
+            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+              <a
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4 transform transition duration-500 hover:scale-110"
+                href="https://github.com/user-attachments/assets/58533dce-fa95-4263-bdfa-9a0a27306fbe"
+                target="_blank"
+              >
+                <img
+                  alt="projects"
+                  className="rounded-lg w-full h-full object-cover object-center"
+                  src="https://github.com/user-attachments/assets/58533dce-fa95-4263-bdfa-9a0a27306fbe"
+                />
+              </a>
+              <div className="flex-grow sm:pl-8">
+                <h3 className="title-font font-medium text-lg text-gray-900">
+                  E-Verse 2.0 : 에너지 절감 관리 Saas 플랫폼
+                </h3>
+                <h4 className="text-gray-500">2024.08 ~ 2024.11</h4>
+                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                  <li>
+                    React 18 + Vite + Typescript + Tailwind CSS(TailAdmin)
+                  </li>
+                  <li>
+                    Tailwind CSS의 Admin Template인 TailAdmin Base로 프론트엔드
+                    개발
+                  </li>
+                  <li>
+                    Template의 큰 틀을 활용하되, UI 컴포넌트들은 개별적 분리
+                  </li>
+                  <li>Tailwind CSS 사용하여 클래스 형태의 CSS 적용</li>
+                  <li>
+                    I18Next를 활용한 4개국어 다국어 처리, 4개국 각각의
+                    timezone적용
+                  </li>
+                  <li>Card-ContentsWrapper 구조의 UI 설계 고안, 도입</li>
+                  <li>
+                    Oracle Cloud Infrasructure (OCI) 인스턴스를 활용한 서비스
+                    배포와 관리
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/user-attachments/files/18271431/CSA-23-2024-11.-.pdf"
+                      className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
+                      target="_blank"
+                    >
+                      클라우드 인증제 (KACI) 획득 (CSA-23-2024-11)
+                    </a>
+                  </li>
+                  <li>
+                    개인 기술 블로그 작성글 -
+                    <a
+                      href="https://hwan2272.notion.site/Card-Children-32c0a5a4cc6a457c8a0f65d83a2f6b31"
+                      className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
+                      target="_blank"
+                    >
+                      [해결]프론트엔드 Card 컴포넌트 Children 적용 구조 리뉴얼
+                    </a>
+                  </li>
+                  <li>
+                    개인 기술 블로그 작성글 -
+                    <a
+                      href="https://hwan2272.notion.site/JWT-Revoke-Renew-b5272d0aa1c94e689337a09809dc72b9?pvs=74"
+                      className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
+                      target="_blank"
+                    >
+                      [회고]JWT 갱신 프로세스 : Revoke? Renew?
+                    </a>
+                  </li>
+                  <li>
+                    개인 기술 블로그 작성글 -
+                    <a
+                      href="https://hwan2272.notion.site/OCI-K8S-OKE-111138d113dd80b8b653ef7861aeda77"
+                      className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
+                      target="_blank"
+                    >
+                      [해결]OCI K8S : OKE 분산 배포 적용기
+                    </a>
+                  </li>
+                </ul>
+                <div className="flex space-x-2 justify-center sm:justify-start">
+                  <Link href="http://ateverse.com/auth/login">
+                    <button className="text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded sm:text-lg text-sm">
+                      Web Link
+                    </button>
+                  </Link>
+                  <Link
+                    href="https://github.com/atemos01/e-verse-frontend-2.0.git"
+                    target="_blank"
+                  >
+                    <button className="text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded sm:text-lg text-sm">
+                      Github Link (Private)
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-wrap -m-4 mb-8">
+          <div className="p-4">
+            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+              <a
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4 transform transition duration-500 hover:scale-110"
                 href="https://github.com/hwan2272/hwan2272/assets/65170244/046b1bf2-4f34-4c6f-be26-58dbb0408a35"
                 target="_blank"
               >
@@ -35,7 +205,6 @@ export default function Projects() {
                 <h4 className="text-gray-500">2024.04 ~ ING</h4>
                 <h4 className="text-gray-500 mb-3">개인 프로젝트</h4>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
-                  <li>기여도 : 100%</li>
                   <li>Next.js + Typescript + Tailwind CSS</li>
                   <li>
                     HTML5 시맨틱 태그 (header, nav, section, footer) 사용한 문단
@@ -106,7 +275,6 @@ export default function Projects() {
                 <h4 className="text-gray-500">2024.01 ~ 2024.04</h4>
                 <h4 className="text-gray-500 mb-3">개인 프로젝트</h4>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
-                  <li>기여도 : 100%</li>
                   <li>React + Typescript + Vite</li>
                   <li>
                     HTML5 시맨틱 태그 (header, nav, section, footer) 사용한 문단
@@ -192,7 +360,6 @@ export default function Projects() {
                 <h4 className="text-gray-500">2023.04 ~ 2024.01</h4>
                 <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
-                  <li>기여도 : 70%</li>
                   <li>
                     React.js 18 + Material-ui 및 React-hookform, yup validation,
                     React-query
@@ -247,7 +414,6 @@ export default function Projects() {
                 <h4 className="text-gray-500">2023.01 ~ 2023.02</h4>
                 <h4 className="text-gray-500 mb-3">개인 프로젝트</h4>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
-                  <li>기여도 : 100%</li>
                   <li>React + Redux + TypsScript + JavaScript</li>
                   <li>redux store를 활용한 상태저장 관리</li>
                   <li>list및 상세View - 서울시api 활용</li>
@@ -297,7 +463,6 @@ export default function Projects() {
                 <h4 className="text-gray-500">2020.11 ~ 2022.04</h4>
                 <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
-                  <li>기여도 : 70%</li>
                   <li>React.js + Kakao Map API</li>
                   <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
                     <li>

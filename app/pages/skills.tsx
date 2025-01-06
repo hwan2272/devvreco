@@ -15,44 +15,45 @@ export default function Skills() {
           </h2>
         </div>
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
-            <img
-              alt="Next.js"
-              className="sm:w-28 w-24 sm:h-8 h-6"
-              src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js"
-            />
+          <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
             <img
               alt="React.js"
-              className="sm:w-28 w-24 sm:h-8 h-6"
+              className="sm:w-28 w-24 sm:h-10 h-8"
               src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"
             />
             <img
               alt="Storybook"
-              className="sm:w-28 w-24 sm:h-8 h-6"
+              className="sm:w-28 w-24 sm:h-10 h-8"
               src="https://img.shields.io/badge/storybook-ff4785?style=for-the-badge&logo=storybook&logoColor=white"
             />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Next.js, React.js, Storybook
+              React.js, Storybook
             </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc text-left">
-              <li>
-                React.js로 환경 설정과 프론트엔드 개발에 필요한 전반적인 활동을
-                할 수 있습니다. (실제로 상용 오픈한 서비스도 많이 있습니다.)
-              </li>
+              <li>React.js로 프론트엔드 개발을 할 수 있습니다.</li>
               <li>
                 개발 도중 npm 이나 yarn에서 제공하는 React.js 관련
-                라이브러리들을 사용할 수 있습니다. (react-query, react-hookform,
-                yup)
+                라이브러리들을 사용할 수 있습니다. (React-Query, Recoil,
+                React-hookform, Zod)
               </li>
-              <li>상태관리를 위한 Zustand, Redux 등을 사용할 수 있습니다.</li>
-              <li>
-                Next.js와 Tailwind CSS를 사용하여 현 사이트를 구성하였습니다.
-              </li>
+              <li>상태관리를 위한 recoil 등을 사용할 수 있습니다.</li>
               <li>
                 Storybook을 사용하여 컴포넌트에 대한 공유나 문서화를 할 수
                 있습니다.
+              </li>
+              <li>
+                현 사이트는 Next.js와 Tailwind CSS를 사용하여 구성하였습니다.
+              </li>
+              <li>
+                <a
+                  href="http://storybook.ateverse.com/?path=/story/e-guard-layout-summary-card--case-good"
+                  className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
+                  target="_blank"
+                >
+                  밀폐공간 근로자 보호 Saas 플랫폼 E-Guard storybook
+                </a>
               </li>
             </ul>
           </div>
@@ -63,13 +64,19 @@ export default function Skills() {
               HTML5, CSS3, Tailwind CSS
             </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc text-left">
-              <li>HTML과 CSS를 다루어 웹페이지 제작을 할 수 있습니다.</li>
+              <li>HTML과 CSS를 이해하고 Tailwind CSS를 사용합니다.</li>
               <li>
-                Figma를 사용한 디자인과의 협의는 몇몇 기업의 기술과제를 수행하며
-                적응하였습니다.
+                Tailwind CSS의 Admin Template인 TailAdmin을 Custom하여 E-Verse
+                2.0과 같은 서비스들을 개발,오픈했습니다.
               </li>
               <li>
-                Next.js와 Tailwind CSS를 사용하여 현 사이트를 구성하였습니다.
+                <a
+                  href="http://ateverse.com/auth/login"
+                  className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
+                  target="_blank"
+                >
+                  에너지 절감 관리 Saas 플랫폼 E-Verse 2.0
+                </a>
               </li>
             </ul>
           </div>
@@ -114,8 +121,8 @@ export default function Skills() {
                 Object.entries 등)
               </li>
               <li>
-                Typescript는 많이 사용하여 보았고, 최근 기술과제도 수행하며
-                적응하였습니다.
+                Typescript로 객체의 Entity를 정의하고 Response나 Payload를
+                구성합니다.
               </li>
             </ul>
           </div>
@@ -130,8 +137,13 @@ export default function Skills() {
                 Java Spring의 MVC 구조에 능숙합니다. JSP개발 경험이 많아
                 Jquery를 잘 다루었습니다.
               </li>
-              <li>SpringBoot로 API 서버 정도는 작성할 수 있습니다.</li>
+              <li>SpringBoot로 API 서버 개발을 했습니다.</li>
               <li>프론트엔드를 하며 Jquery는 지양하고 있습니다.</li>
+              <li>
+                축적된 경험으로 DB 설계 개선과 서비스 웹 보안 적용(CORS 처리,
+                XSS 방지 처리, 개인정보 마스킹 등 보안 정책 고안과 백엔드
+                협업)을 주도했습니다.
+              </li>
             </ul>
           </div>
           <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 grid items-center justify-center rounded-full flex-shrink-0">
@@ -185,7 +197,7 @@ export default function Skills() {
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Linux, Apache Tomcat
+              Linux, Apache Tomcat, Nginx
             </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>Linux 환경에 익숙하여 Apache세팅 등이 가능합니다.</li>
@@ -193,18 +205,24 @@ export default function Skills() {
                 SpringBoot으로 서버를 빌드하여 Apache tomcat으로 구동할 수
                 있습니다.
               </li>
+              <li>최근에는 Linux 환경의 배포를 위해 Nginx를 사용하였습니다.</li>
             </ul>
           </div>
-          <div className="sm:w-32 sm:order-none order-first sm:h-24 h-20 w-20 sm:ml-10 grid items-center justify-center rounded-full flex-shrink-0">
+          <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 grid items-center justify-center rounded-full flex-shrink-0">
             <img
               alt="Linux"
-              className="sm:w-28 w-24 sm:h-10 h-8"
+              className="sm:w-28 w-24 sm:h-8 h-6"
               src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"
             />
             <img
               alt="Apache Tomcat"
-              className="sm:w-28 w-24 sm:h-10 h-8"
+              className="sm:w-28 w-24 sm:h-8 h-6"
               src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"
+            />
+            <img
+              alt="Nginx"
+              className="sm:w-28 w-24 sm:h-8 h-6"
+              src="https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white&style=for-the-badge"
             />
           </div>
         </div>
@@ -229,43 +247,9 @@ export default function Skills() {
               <li>Git, Jira를 협업 툴로 많이 사용하였습니다.</li>
               <li>Git로 소스 fetch, pull 및 branch 작업에 익숙합니다.</li>
               <li>
-                최근 기술과제들을 수행하며 Pull Request 생태계에 적응하였습니다.
+                feature branch를 분기하여 개인 branch 작업을 하고, merge하는
+                방식을 주로 사용합니다.
               </li>
-              <li>Pull Request시에는 feature branch를 주로 사용합니다.</li>
-            </ul>
-          </div>
-        </div>
-        <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Visual Studio Code
-            </h3>
-            <ul className="pl-4 leading-relaxed text-base list-disc text-left">
-              <li>VSCode를 주로 프론트엔드 개발시 사용합니다.</li>
-            </ul>
-          </div>
-          <div className="sm:w-32 sm:order-none order-first sm:h-24 h-20 w-20 sm:ml-10 grid items-center justify-center rounded-full flex-shrink-0">
-            <img
-              alt="Visual Studio Code"
-              className="sm:w-28 w-24 sm:h-10 h-8"
-              src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"
-            />
-          </div>
-        </div>
-        <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
-            <img
-              alt="JWT"
-              className="sm:w-28 w-24 sm:h-10 h-8"
-              src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white"
-            />
-          </div>
-          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Json Web Token (JWT)
-            </h3>
-            <ul className="pl-4 leading-relaxed text-base list-disc text-left">
-              <li>JWT의 프로세스에 익숙합니다. (AccessToken, RefreshToken)</li>
             </ul>
           </div>
         </div>

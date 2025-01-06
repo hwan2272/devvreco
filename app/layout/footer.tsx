@@ -7,7 +7,7 @@ export default function Footer() {
             <span className="ml-3 text-xl">hwan2272 Devvreco</span>
           </a>
           <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
-            Copyright ⓒ 2024. hwan2272 All rights reserved.
+            Copyright ⓒ 2025. hwan2272 All rights reserved.
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             {/* <a className="text-gray-500">
