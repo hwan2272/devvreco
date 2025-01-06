@@ -38,13 +38,10 @@ export default function Skills() {
                 라이브러리들을 사용할 수 있습니다. (React-Query, Recoil,
                 React-hookform, Zod)
               </li>
-              <li>상태관리를 위한 recoil 등을 사용할 수 있습니다.</li>
+              <li>상태관리를 위한 Recoil 등을 사용할 수 있습니다.</li>
               <li>
                 Storybook을 사용하여 컴포넌트에 대한 공유나 문서화를 할 수
                 있습니다.
-              </li>
-              <li>
-                현 사이트는 Next.js와 Tailwind CSS를 사용하여 구성하였습니다.
               </li>
               <li>
                 <a
@@ -52,7 +49,7 @@ export default function Skills() {
                   className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
                   target="_blank"
                 >
-                  밀폐공간 근로자 보호 Saas 플랫폼 E-Guard storybook
+                  밀폐공간 근로자 보호 Saas 플랫폼 E-Guard Storybook
                 </a>
               </li>
             </ul>
@@ -65,6 +62,9 @@ export default function Skills() {
             </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>HTML과 CSS를 이해하고 Tailwind CSS를 사용합니다.</li>
+              <li>
+                현 사이트는 Next.js와 Tailwind CSS를 사용하여 구성하였습니다.
+              </li>
               <li>
                 Tailwind CSS의 Admin Template인 TailAdmin을 Custom하여 E-Verse
                 2.0과 같은 서비스들을 개발,오픈했습니다.
@@ -117,7 +117,7 @@ export default function Skills() {
             </h3>
             <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>
-                Javascript에 능숙합니다. ES6~ 문법에 익숙합니다. (spread 연산자,
+                Javascript를 사용하며 ES6~ 문법에 익숙합니다. (spread 연산자,
                 Object.entries 등)
               </li>
               <li>
@@ -140,9 +140,8 @@ export default function Skills() {
               <li>SpringBoot로 API 서버 개발을 했습니다.</li>
               <li>프론트엔드를 하며 Jquery는 지양하고 있습니다.</li>
               <li>
-                축적된 경험으로 DB 설계 개선과 서비스 웹 보안 적용(CORS 처리,
-                XSS 방지 처리, 개인정보 마스킹 등 보안 정책 고안과 백엔드
-                협업)을 주도했습니다.
+                DB 설계 개선과 서비스 웹 보안 적용(CORS 처리, XSS 방지 처리,
+                개인정보 마스킹 등 보안 정책 고안과 백엔드 협업)을 주도했습니다.
               </li>
             </ul>
           </div>
@@ -202,7 +201,7 @@ export default function Skills() {
             <ul className="pl-4 leading-relaxed text-base list-disc text-left">
               <li>Linux 환경에 익숙하여 Apache세팅 등이 가능합니다.</li>
               <li>
-                SpringBoot으로 서버를 빌드하여 Apache tomcat으로 구동할 수
+                SpringBoot으로 서버를 빌드하여 Apache Tomcat으로 구동할 수
                 있습니다.
               </li>
               <li>최근에는 Linux 환경의 배포를 위해 Nginx를 사용하였습니다.</li>

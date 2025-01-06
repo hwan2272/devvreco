@@ -40,7 +40,7 @@ export default function Projects() {
                   </li>
                   <li>E-Verse 2.0과 환경 동일</li>
                   <li>
-                    Oracle Cloud Infrasructure (OCI) 인스턴스를 활용한 서비스
+                    Oracle Cloud Infrastructure (OCI) 인스턴스를 활용한 서비스
                     배포와 관리
                   </li>
                   <li>
@@ -55,20 +55,17 @@ export default function Projects() {
                     ListContentsWrapper 및 Hook Form 에 사용되는 Type Entity
                     개선을 위한 Zod 도입
                   </li>
-                  <li>
-                    <a
-                      href="http://storybook.ateverse.com/?path=/story/e-guard-layout-summary-card--case-good"
-                      className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
-                      target="_blank"
-                    >
-                      서비스 UI 컴포넌트 공유용 Storybook 개발
-                    </a>
-                  </li>
+                  <li>서비스 UI 컴포넌트 공유용 Storybook 개발</li>
                 </ul>
                 <div className="flex space-x-2 justify-center sm:justify-start">
                   <Link href="http://eguard.ateverse.com/auth/login">
                     <button className="text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded sm:text-lg text-sm">
                       Web Link
+                    </button>
+                  </Link>
+                  <Link href="http://storybook.ateverse.com/?path=/story/e-guard-layout-summary-card--case-good">
+                    <button className="text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded sm:text-lg text-sm">
+                      Storybook Link
                     </button>
                   </Link>
                   <Link
@@ -113,7 +110,8 @@ export default function Projects() {
                     개발
                   </li>
                   <li>
-                    Template의 큰 틀을 활용하되, UI 컴포넌트들은 개별적 분리
+                    자주 사용하는 UI 공통 컴포넌트화 (Cards, Buttons, Charts,
+                    Customs 등) : E-Guard Storybook 참조
                   </li>
                   <li>Tailwind CSS 사용하여 클래스 형태의 CSS 적용</li>
                   <li>
@@ -122,7 +120,7 @@ export default function Projects() {
                   </li>
                   <li>Card-ContentsWrapper 구조의 UI 설계 고안, 도입</li>
                   <li>
-                    Oracle Cloud Infrasructure (OCI) 인스턴스를 활용한 서비스
+                    Oracle Cloud Infrastructure (OCI) 인스턴스를 활용한 서비스
                     배포와 관리
                   </li>
                   <li>
@@ -354,7 +352,7 @@ export default function Projects() {
               </a>
               <div className="flex-grow sm:pl-8">
                 <h3 className="title-font font-medium text-lg text-gray-900">
-                  Hdms Camel : 임상연구사업 관리 통합플랫폼 HDMS 서비스
+                  Hdms Camel : 임상연구사업 관리 Saas 플랫폼 HDMS 서비스
                   Camel버전
                 </h3>
                 <h4 className="text-gray-500">2023.04 ~ 2024.01</h4>
