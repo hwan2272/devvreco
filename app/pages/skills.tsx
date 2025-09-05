@@ -15,6 +15,31 @@ export default function Skills() {
           </h2>
         </div>
         <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+            <h3 className="text-gray-900 text-lg title-font font-medium mb-2">
+              Python, FastAPI, Uvicorn
+            </h3>
+            <ul className="pl-4 leading-relaxed text-base list-disc text-left">
+              <li>연구소에서 AI 개발 언어 통일성의 일환으로 Python FastAPI으로 API 모듈을 개발, Uvicorn으로 서빙했습니다.</li>
+              <li>
+                Pure한 VM에서 시작하여 API-RAG-vLLM 파이프라인 체계를 갖추기까지 솔루션 제품의 틀을 구축했습니다.
+              </li>
+            </ul>
+          </div>
+          <div className="sm:w-32 sm:order-none order-first sm:h-24 h-20 w-20 sm:ml-10 grid items-center justify-center rounded-full flex-shrink-0">
+            <img
+              alt="Python"
+              className="sm:w-28 w-24 sm:h-10 h-8"
+              src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+            />
+            <img
+              alt="FastApi"
+              className="sm:w-28 w-24 sm:h-10 h-8"
+              src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"
+            />
+          </div>
+        </div>
+        <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-24 h-20 w-20 sm:mr-10 grid items-center justify-center rounded-full flex-shrink-0">
             <img
               alt="React.js"
