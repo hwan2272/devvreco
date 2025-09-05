@@ -15,11 +15,14 @@ export default function AboutMe() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             박정환
             <br className="lg:inline-block" />
-            Software Engineer
+            Software Engineer, AI Lab Leader
           </h1>
           <ul className="pl-4 mb-8 leading-relaxed list-disc text-left">
             <li>
-              시니어 개발자 Role을 수행하며 개발팀 리딩과 협업 등의 성과로
+              AI 스타트업에서 회사의 첫 제품을 구체화하였습니다. 이는 불모의 땅에서 문명을 건설한 것과 같습니다.
+            </li>
+            <li>
+              이전에는 시니어 개발자 Role을 수행하며 개발팀 리딩과 협업 등의 성과로
               2024년말 한국 클라우드 인증제 인증을 획득하였습니다.
               <a
                 href="https://github.com/user-attachments/files/18271431/CSA-23-2024-11.-.pdf"
