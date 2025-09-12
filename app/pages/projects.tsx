@@ -19,13 +19,13 @@ export default function Projects() {
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
                 className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4 transform transition duration-500 hover:scale-110"
-                href="https://github.com/user-attachments/assets/7013f290-430d-4e2f-b1b7-3111321b2900"
+                href="https://github-production-user-asset-6210df.s3.amazonaws.com/65170244/488661033-7690b603-654d-40d4-9414-ad9ac8e2e314.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250912T051034Z&X-Amz-Expires=300&X-Amz-Signature=801f4eeae0b2f6b9205e5cf1e44f5ec9c79f8739b4f53182cd46e8eba6d81e84&X-Amz-SignedHeaders=host"
                 target="_blank"
               >
                 <img
                   alt="projects"
                   className="rounded-lg w-full h-full object-cover object-center"
-                  src="https://github.com/user-attachments/assets/7013f290-430d-4e2f-b1b7-3111321b2900"
+                  src="https://github-production-user-asset-6210df.s3.amazonaws.com/65170244/488661033-7690b603-654d-40d4-9414-ad9ac8e2e314.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250912T051034Z&X-Amz-Expires=300&X-Amz-Signature=801f4eeae0b2f6b9205e5cf1e44f5ec9c79f8739b4f53182cd46e8eba6d81e84&X-Amz-SignedHeaders=host"
                 />
               </a>
               <div className="flex-grow sm:pl-8">
