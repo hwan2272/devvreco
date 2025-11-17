@@ -19,11 +19,12 @@ export default function AboutMe() {
           </h1>
           <ul className="pl-4 mb-8 leading-relaxed list-disc text-left">
             <li>
-              AI 스타트업에서 회사의 첫 제품을 구체화하였습니다. 이는 불모의 땅에서 문명을 건설한 것과 같습니다.
+              AI 스타트업에서 회사의 첫 제품을 구체화하였습니다. 이는 불모의
+              땅에서 문명을 건설한 것과 같습니다.
             </li>
             <li>
-              이전에는 시니어 개발자 Role을 수행하며 개발팀 리딩과 협업 등의 성과로
-              2024년말 한국 클라우드 인증제 인증을 획득하였습니다.
+              이전에는 시니어 개발자 Role을 수행하며 개발팀 리딩과 협업 등의
+              성과로 2024년말 한국 클라우드 인증제 인증을 획득하였습니다.
               <a
                 href="https://github.com/user-attachments/files/18271431/CSA-23-2024-11.-.pdf"
                 className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
@@ -33,13 +34,21 @@ export default function AboutMe() {
               </a>
             </li>
             <li>
-              개발자 커뮤니티에서 100여 분 이상의 질문자분들과 상호 소통하는 등
+              개발자 커뮤니티에서 170명 이상의 질문자분들과 상호 소통하는 등
               생각을 나누며 트렌드를 받아들이고 보다 나은 서비스를 만들어 배포,
               제공하는데 관심이 있습니다.
             </li>
             <li>
               개인 프로젝트 및 학습 등을 하며 기술 스택의 범위와 이해를 넓히고
               있습니다.
+            </li>
+            <li>
+              재직한 모든 회사의 근무 경력을 KOSA(한국소프트웨어기술자 경력관리
+              시스템)에서 인증 받았습니다.
+            </li>
+            <li>
+              대부분의 기술 경력(현업 프로젝트 내역)을 KOSA에서 인증 받았습니다.
+              (현시점에서 증빙이 어려운 일부 프로젝트 제외)
             </li>
           </ul>
           <div className="flex justify-center">

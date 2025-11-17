@@ -19,13 +19,130 @@ export default function Projects() {
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <a
                 className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4 transform transition duration-500 hover:scale-110"
-                href="https://github-production-user-asset-6210df.s3.amazonaws.com/65170244/488661033-7690b603-654d-40d4-9414-ad9ac8e2e314.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250912T051034Z&X-Amz-Expires=300&X-Amz-Signature=801f4eeae0b2f6b9205e5cf1e44f5ec9c79f8739b4f53182cd46e8eba6d81e84&X-Amz-SignedHeaders=host"
+                href="https://drive.google.com/file/d/1ilFc4JUilqGH2kwQ0ZhWPQtJ-mptIuuq/view?usp=sharing"
                 target="_blank"
               >
                 <img
                   alt="projects"
                   className="rounded-lg w-full h-full object-cover object-center"
-                  src="https://github-production-user-asset-6210df.s3.amazonaws.com/65170244/488661033-7690b603-654d-40d4-9414-ad9ac8e2e314.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250912T051034Z&X-Amz-Expires=300&X-Amz-Signature=801f4eeae0b2f6b9205e5cf1e44f5ec9c79f8739b4f53182cd46e8eba6d81e84&X-Amz-SignedHeaders=host"
+                  src="https://drive.google.com/file/d/1ilFc4JUilqGH2kwQ0ZhWPQtJ-mptIuuq/view?usp=sharing"
+                />
+              </a>
+              <div className="flex-grow sm:pl-8">
+                <h3 className="title-font font-medium text-lg text-gray-900">
+                  HFLOW MGP 고도화
+                </h3>
+                <h4 className="text-gray-500">2025.09 ~ 2025.10</h4>
+                <h4 className="text-gray-500 mb-3">
+                  현업 프로젝트 [KOSA 인증]
+                </h4>
+                <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                  <li>
+                    HFLOW MGP를 좀더 여러 상황에 맞추어 응답을 할 수 있도록
+                    고도화하는 프로젝트
+                  </li>
+                  <li>
+                    RAG 고도화 (Langgraph Multi Agents 개발론의 방향성 활용)
+                  </li>
+                  <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                    <li>
+                      Langgraph Multi Agents 개발론 : Processing을 수행하는
+                      소규모 모듈들을 nodes로 구분하고 각 역할에 따라 기능을
+                      수행
+                    </li>
+                    <li>
+                      Prompt를 생성하는 것이 중요하므로 각 nodes를 이동하며
+                      Prompt Custom 수행
+                    </li>
+                    <li>
+                      LLM에 전달하기 전 Prompt 최종 조합 - LLM이 응답해야 하는
+                      질문에 대한 추가 정보 전달, 상황 및 톤 전달 등 수행
+                    </li>
+                    <li>
+                      개인 기술 블로그 작성글 -
+                      <a
+                        href="https://hwan2272.notion.site/Multi-Agents-Agent-262138d113dd80bbb87be328b1916c37"
+                        className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
+                        target="_blank"
+                      >
+                        [분석] Multi Agents 기술 구성과 Agent들의 역할
+                      </a>
+                    </li>
+                  </ul>
+                  <li>DEMO 기능 및 화면 고도화 - 실시간 검색어 기능</li>
+                  <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                    <li>
+                      서비스에서 현재 사람들이 많이 검색한 질문 List를 표시하는
+                      기능
+                    </li>
+                    <li>
+                      질문 List에서 항목 클릭시 Count 증가 및 Count에 따른
+                      실시간 Order변경 처리 (Websocket 및 Trigger API 사용)
+                    </li>
+                    <li>
+                      데이터를 Vector DB로 관리, Vector DB 관리시의 RDBMS와의
+                      차이점 및 노하우 습득
+                    </li>
+                  </ul>
+                  <li>DEMO 기능 및 화면 고도화 - 관련 검색어 기능</li>
+                  <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                    <li>현재 답변한 내용에 관련한 질문 List를 표시하는 기능</li>
+                    <li>
+                      항목 클릭시 자동으로 다음 질문으로 처리하고 LLM의 답변
+                      생성 프로세스 재수행
+                    </li>
+                    <li>
+                      너무 비슷한 질문은 나오지 않도록 하는 등 추가적인 데이터
+                      필터링 처리 - 유사도 검색 로직을 위해 Retriever와 Rerank
+                      방식 복합 적용 고안
+                    </li>
+                    <li>데이터 CRUD 구현에 REST API 형식 처리하도록 가이드</li>
+                    <li>
+                      데이터를 Vector DB로 관리, Vector DB 관리시의 RDBMS와의
+                      차이점 및 노하우 습득
+                    </li>
+                  </ul>
+                  <li>DEMO Admin 개발</li>
+                  <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
+                    <li>Python Django를 통한 Admin 개발</li>
+                    <li>Nginx 및 Admin 모듈 간 CORS 조정</li>
+                    <li>
+                      Demo Admin에서는 최종 Prompt 및 서버 소요시간 등도 알 수
+                      있도록 추가하는 등 Demo와는 Detail적 부분의 차이를 두었음
+                    </li>
+                  </ul>
+                </ul>
+                <div className="flex space-x-2 justify-center sm:justify-start">
+                  <Link href="https://www.hecaton.co.kr/hflow">
+                    <button className="text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded sm:text-lg text-sm">
+                      Web Demo Link
+                    </button>
+                  </Link>
+                  <Link
+                    href="https://github.com/orgs/hecaton-ai/repositories"
+                    target="_blank"
+                  >
+                    <button className="text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded sm:text-lg text-sm">
+                      Github Link (Private)
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-wrap -m-4 mb-8">
+          <div className="p-4">
+            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+              <a
+                className="flex-shrink-0 w-48 h-48 sm:mb-0 mb-4 transform transition duration-500 hover:scale-110"
+                href="https://drive.google.com/file/d/1ilFc4JUilqGH2kwQ0ZhWPQtJ-mptIuuq/view?usp=sharing"
+                target="_blank"
+              >
+                <img
+                  alt="projects"
+                  className="rounded-lg w-full h-full object-cover object-center"
+                  src="https://drive.google.com/file/d/1ilFc4JUilqGH2kwQ0ZhWPQtJ-mptIuuq/view?usp=sharing"
                 />
               </a>
               <div className="flex-grow sm:pl-8">
@@ -33,113 +150,116 @@ export default function Projects() {
                   HFLOW MGP : 민원질의 대응 RAG + LLM Ops 서비스 (1차버전)
                 </h3>
                 <h4 className="text-gray-500">2025.06 ~ 2025.08</h4>
-                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <h4 className="text-gray-500 mb-3">
+                  현업 프로젝트 [KOSA 인증]
+                </h4>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
-                  <li>
-                    Python 3.11 + Uvicorn + FastAPI + Html5
-                  </li>
-                  <li>
-                    vSphere VM 기반의 Ubuntu 서버 및 VPN망 접속 환경
-                  </li>
-                  <li>
-                    실물 GPU와 이를 vLLM으로 서빙할 수 있는 하드웨어 환경
-                  </li>
-                  <li>
-                    프로젝트 총괄
-                  </li>
-                  <ul className="pl-4 leading-relaxed text-left" style={{"listStyle":"circle"}}>
+                  <li>Python 3.11 + Uvicorn + FastAPI + Html5</li>
+                  <li>vSphere VM 기반의 Ubuntu 서버 및 VPN망 접속 환경</li>
+                  <li>실물 GPU와 이를 vLLM으로 서빙할 수 있는 하드웨어 환경</li>
+                  <li>프로젝트 총괄</li>
+                  <ul
+                    className="pl-4 leading-relaxed text-left"
+                    style={{ listStyle: "circle" }}
+                  >
                     <li>
                       연구소장으로서 연구소 업무 병행하며 소규모 팀원 리딩
                     </li>
+                    <li>전체 서비스 아키텍쳐 고안과 구축</li>
+                    <li>Demo UI 개발을 통한 외부 시연 제공</li>
+                  </ul>
+                  <li>Demo UI 개발</li>
+                  <ul
+                    className="pl-4 leading-relaxed text-left"
+                    style={{ listStyle: "circle" }}
+                  >
                     <li>
-                      전체 서비스 아키텍쳐 고안과 구축
-                    </li>
-                    <li>
-                      Demo UI 개발을 통한 외부 시연 제공
+                      인터넷망 기반 HTML5와 Valnila Javascript를 사용한 질의와
+                      결과 확인용 UI 구축
                     </li>
                   </ul>
-                  <li>
-                    Demo UI 개발
-                  </li>
-                  <ul className="pl-4 leading-relaxed text-left" style={{"listStyle":"circle"}}>
+                  <li>게이트웨이 PC 환경 구축</li>
+                  <ul
+                    className="pl-4 leading-relaxed text-left"
+                    style={{ listStyle: "circle" }}
+                  >
                     <li>
-                        인터넷망 기반 HTML5와 Valnila Javascript를 사용한 질의와 결과 확인용 UI 구축
+                      인터넷망으로 들어온 질의를 VPN망의 인프라로 전달하기 위한
+                      Nginx 리버스 프록시 고안과 구축
                     </li>
                   </ul>
-                  <li>
-                    게이트웨이 PC 환경 구축
-                  </li>
-                  <ul className="pl-4 leading-relaxed text-left" style={{"listStyle":"circle"}}>
+                  <li>WAF (Web Application Firewall) 구축</li>
+                  <ul
+                    className="pl-4 leading-relaxed text-left"
+                    style={{ listStyle: "circle" }}
+                  >
                     <li>
-                        인터넷망으로 들어온 질의를 VPN망의 인프라로 전달하기 위한 Nginx 리버스 프록시 고안과 구축
-                    </li>
-                  </ul>
-                  <li>
-                    WAF (Web Application Firewall) 구축
-                  </li>
-                  <ul className="pl-4 leading-relaxed text-left" style={{"listStyle":"circle"}}>
-                    <li>
-                      Nginx + ModSecurity 사용. ModSecurity Role 구성을 통한 부적절 및 트래픽 공격자 IP에 대한 차단 정책 적용
+                      Nginx + ModSecurity 사용. ModSecurity Role 구성을 통한
+                      부적절 및 트래픽 공격자 IP에 대한 차단 정책 적용
                     </li>
                     <li>1시간마다 개발팀에 Noti하는 프로세스 고안과 구축</li>
                   </ul>
-                  <li>
-                    모듈 공통
-                  </li>
-                  <ul className="pl-4 leading-relaxed text-left" style={{"listStyle":"circle"}}>
+                  <li>모듈 공통</li>
+                  <ul
+                    className="pl-4 leading-relaxed text-left"
+                    style={{ listStyle: "circle" }}
+                  >
                     <li>
-                      Github Actions의 Docker build 처리와 Docker Compose 적용을 통한 쉬운 구동 프로세스와 CI/CD 구축
+                      Github Actions의 Docker build 처리와 Docker Compose 적용을
+                      통한 쉬운 구동 프로세스와 CI/CD 구축
+                    </li>
+                    <li>공통 Health Checker 적용. 이상 모듈 개발팀 Noti</li>
+                  </ul>
+                  <li>Hflow API 구축</li>
+                  <ul
+                    className="pl-4 leading-relaxed text-left"
+                    style={{ listStyle: "circle" }}
+                  >
+                    <li>
+                      사용자 질의를 받아들여 RAG와 vLLM으로 전달하기 위한
+                      Endpoint 구성
                     </li>
                     <li>
-                      공통 Health Checker 적용. 이상 모듈 개발팀 Noti
+                      보안을 위한 질의 전처리 (XSS 방지, Length Check, Format
+                      Check)
                     </li>
                   </ul>
-                  <li>
-                    Hflow API 구축
-                  </li>
-                  <ul className="pl-4 leading-relaxed text-left" style={{"listStyle":"circle"}}>
+                  <li>Hflow RAG 등에 대한 보완</li>
+                  <ul
+                    className="pl-4 leading-relaxed text-left"
+                    style={{ listStyle: "circle" }}
+                  >
                     <li>
-                      사용자 질의를 받아들여 RAG와 vLLM으로 전달하기 위한 Endpoint 구성
+                      질의 응답 파이프라인 내 Exception 시 공통 Exception
+                      Handler 적용
                     </li>
                     <li>
-                      보안을 위한 질의 전처리 (XSS 방지, Length Check, Format Check)
-                    </li>
-                  </ul>
-                  <li>
-                    Hflow RAG 등에 대한 보완
-                  </li>
-                  <ul className="pl-4 leading-relaxed text-left" style={{"listStyle":"circle"}}>
-                    <li>
-                      질의 응답 파이프라인 내 Exception 시 공통 Exception Handler 적용
-                    </li>
-                    <li>
-                      존재하지 않는 Endpoint에 대한 접근 404 차단 적용으로 외부 공격과 트래픽 과부하 방지
+                      존재하지 않는 Endpoint에 대한 접근 404 차단 적용으로 외부
+                      공격과 트래픽 과부하 방지
                     </li>
                   </ul>
-                  <li>
-                    vLLM 모델 선정과 전체 로그 모니터링 구축 
-                  </li>
-                  <ul className="pl-4 leading-relaxed text-left" style={{"listStyle":"circle"}}>
+                  <li>vLLM 모델 선정과 전체 로그 모니터링 구축</li>
+                  <ul
+                    className="pl-4 leading-relaxed text-left"
+                    style={{ listStyle: "circle" }}
+                  >
+                    <li>국내 대응을 위한 국산 모델 선정과 성능 확인</li>
                     <li>
-                      국내 대응을 위한 국산 모델 선정과 성능 확인
-                    </li>
-                    <li>
-                      Loki + Promtail 적용을 통한 각 모듈간 로그 수집 중앙화와 모니터링 환경 구축
+                      Loki + Promtail 적용을 통한 각 모듈간 로그 수집 중앙화와
+                      모니터링 환경 구축
                     </li>
                   </ul>
-                  <li>
-                    기타
-                  </li>
-                  <ul className="pl-4 leading-relaxed text-left" style={{"listStyle":"circle"}}>
+                  <li>기타</li>
+                  <ul
+                    className="pl-4 leading-relaxed text-left"
+                    style={{ listStyle: "circle" }}
+                  >
                     <li>
-                      구축 인프라를 VM 1대로 서빙할 수 있는 Kubernetes 배포 환경 연구
+                      구축 인프라를 VM 1대로 서빙할 수 있는 Kubernetes 배포 환경
+                      연구
                     </li>
-                    <li>
-                      Hflow 관련 각종 서브도메인 및 SSL 인증서 관리
-                    </li>
-                    <li>
-                      팀내 Git Commit 컨벤션 정립 - 유다시티 스타일 참조
-                    </li>
+                    <li>Hflow 관련 각종 서브도메인 및 SSL 인증서 관리</li>
+                    <li>팀내 Git Commit 컨벤션 정립 - 유다시티 스타일 참조</li>
                   </ul>
                 </ul>
                 <div className="flex space-x-2 justify-center sm:justify-start">
@@ -180,7 +300,9 @@ export default function Projects() {
                   E-Guard : 밀폐공간 근로자보호 Saas 플랫폼
                 </h3>
                 <h4 className="text-gray-500">2024.10 ~ 2025.01</h4>
-                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <h4 className="text-gray-500 mb-3">
+                  현업 프로젝트 [KOSA 인증]
+                </h4>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
                   <li>
                     React 18 + Vite + Typescript + Tailwind CSS(TailAdmin)
@@ -247,7 +369,9 @@ export default function Projects() {
                   E-Verse 2.0 : 에너지 절감 관리 Saas 플랫폼
                 </h3>
                 <h4 className="text-gray-500">2024.08 ~ 2024.11</h4>
-                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <h4 className="text-gray-500 mb-3">
+                  현업 프로젝트 [KOSA 인증]
+                </h4>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
                   <li>
                     React 18 + Vite + Typescript + Tailwind CSS(TailAdmin)
@@ -503,7 +627,9 @@ export default function Projects() {
                   Camel버전
                 </h3>
                 <h4 className="text-gray-500">2023.04 ~ 2024.01</h4>
-                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <h4 className="text-gray-500 mb-3">
+                  현업 프로젝트 [KOSA 인증]
+                </h4>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
                   <li>
                     React.js 18 + Material-ui 및 React-hookform, yup validation,
@@ -606,7 +732,9 @@ export default function Projects() {
                   아파트청약케어 : 아파트관련 이통사 부가서비스
                 </h3>
                 <h4 className="text-gray-500">2020.11 ~ 2022.04</h4>
-                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <h4 className="text-gray-500 mb-3">
+                  현업 프로젝트 [KOSA 인증]
+                </h4>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
                   <li>React.js + Kakao Map API</li>
                   <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
@@ -688,7 +816,9 @@ export default function Projects() {
                   이통사 부가서비스 6종 : LOP / SPM / 주투 / 슈퍼 / 알파 / PNS
                 </h3>
                 <h4 className="text-gray-500">2019.09 ~ 2021.08</h4>
-                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <h4 className="text-gray-500 mb-3">
+                  현업 프로젝트 [KOSA 인증]
+                </h4>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
                   <li>Java SpringFramework (Jdk1.8) + JSP, Apache Tomcat</li>
                   <li>
@@ -736,7 +866,9 @@ export default function Projects() {
                   정부위원회 양성평등 관리 시스템 개발 및 파견 SI / SM
                 </h3>
                 <h4 className="text-gray-500">2013.09 ~ 2016.12</h4>
-                <h4 className="text-gray-500 mb-3">현업 프로젝트</h4>
+                <h4 className="text-gray-500 mb-3">
+                  현업 프로젝트 [KOSA 미인증]
+                </h4>
                 <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
                   <li>Java SpringFramework (eGovFramework) + JSP, Sybase</li>
                   <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
