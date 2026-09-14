@@ -91,11 +91,6 @@ export default function Projects() {
                       항목 클릭시 자동으로 다음 질문으로 처리하고 LLM의 답변
                       생성 프로세스 재수행
                     </li>
-                    <li>
-                      너무 비슷한 질문은 나오지 않도록 하는 등 추가적인 데이터
-                      필터링 처리 - 유사도 검색 로직을 위해 Retriever와 Rerank
-                      방식 복합 적용 고안
-                    </li>
                     <li>데이터 CRUD 구현에 REST API 형식 처리하도록 가이드</li>
                     <li>
                       데이터를 Vector DB로 관리, Vector DB 관리시의 RDBMS와의
@@ -157,15 +152,14 @@ export default function Projects() {
                   <li>Python 3.11 + Uvicorn + FastAPI + Html5</li>
                   <li>vSphere VM 기반의 Ubuntu 서버 및 VPN망 접속 환경</li>
                   <li>실물 GPU와 이를 vLLM으로 서빙할 수 있는 하드웨어 환경</li>
-                  <li>프로젝트 총괄</li>
+                  <li>프로젝트 리드</li>
                   <ul
                     className="pl-4 leading-relaxed text-left"
                     style={{ listStyle: "circle" }}
                   >
                     <li>
-                      연구소장으로서 연구소 업무 병행하며 소규모 팀원 리딩
+                      연구소 팀장으로서 소규모 팀원 리딩
                     </li>
-                    <li>전체 서비스 아키텍쳐 고안과 구축</li>
                     <li>Demo UI 개발을 통한 외부 시연 제공</li>
                   </ul>
                   <li>Demo UI 개발</li>
