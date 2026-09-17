@@ -68,6 +68,15 @@ export default function Projects() {
                         [분석] Multi Agents 기술 구성과 Agent들의 역할
                       </a>
                     </li>
+                    <li>
+                      <a
+                        href="https://drive.google.com/file/d/1pR7grVMEYAYd5BCXQvxedDvIyQ1I9Cc-/view?usp=drive_link"
+                        className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
+                        target="_blank"
+                      >
+                        시연 영상
+                      </a>
+                    </li>
                   </ul>
                   <li>DEMO 기능 및 화면 고도화 - 실시간 검색어 기능</li>
                   <ul className="pl-4 mb-4 leading-relaxed list-disc text-left">
@@ -427,6 +436,15 @@ export default function Projects() {
                       [해결]OCI K8S : OKE 분산 배포 적용기
                     </a>
                   </li>
+                  <li>
+                      <a
+                        href="https://drive.google.com/file/d/1bS61RRIddGVzwNqQg7xs0u9M5pN41yDY/view?usp=drive_link"
+                        className="text-indigo-500 underline hover:text-indigo-600 hover:font-bold"
+                        target="_blank"
+                      >
+                        시연 영상
+                      </a>
+                    </li>
                 </ul>
                 <div className="flex space-x-2 justify-center sm:justify-start">
                   <Link href="http://ateverse.com/auth/login">
